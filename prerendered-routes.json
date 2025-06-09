@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/hardware-app": {},
+    "/hardware-app/about": {},
+    "/hardware-app/contact": {},
+    "/hardware-app/quote": {}
+  }
+}
