@@ -1,0 +1,14 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f3f4f6;
+}
+
+.about-card {
+  max-width: 800px;
+  width: 100%;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,22 @@
+<div class="home-container">
+  <h1 class="page-title">Our Hardware Products</h1>
+
+  <div class="product-grid">
+    <mat-card *ngFor="let product of products" class="product-card">
+      <img mat-card-image [src]="product.imageUrl" [alt]="product.name" />
+      <mat-card-content>
+        <h2>{{ product.name }}</h2>
+        <p>{{ product.description }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<a 
+  class="whatsapp-float" 
+  href="https://wa.me/919004242554" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  aria-label="Chat on WhatsApp"
+>
+  <fa-icon [icon]="faWhatsapp"></fa-icon>
+</a>

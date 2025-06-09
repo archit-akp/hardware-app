@@ -1,0 +1,19 @@
+
+.quote-head {
+    align-items: center;   
+}
+.form{
+    display: table-caption;
+    display: block;
+}
+.quote-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.full-width {
+  width: 100%;
+}
