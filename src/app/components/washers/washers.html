@@ -1,0 +1,12 @@
+<div class="bolt-container">
+  <h2>Types of Washers</h2>
+  <div class="bolt-grid">
+    <mat-card *ngFor="let washers of washersTypes" class="bolt-card">
+      <mat-card-title>{{ washers.name }}</mat-card-title>
+      <mat-card-content>
+        <p><strong>Description:</strong> {{ washers.description }}</p>
+        <p><strong>Specifications:</strong> {{ washers.specs }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

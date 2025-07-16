@@ -3,27 +3,26 @@ export interface Product {
   name: string;
   description: string;
   imageUrl: string;
+  route: string; 
 }
 
 export const PRODUCTS: Product[] = [
   {
-    name: 'Door Handle',
-    description: 'High-quality stainless steel door handle suitable for all wooden doors.',
-    imageUrl: 'https://www.aksharmetalsalloys.com/assets/images/products/01/01-a.jpg'
-  },
-  {
-    name: 'Quality Bolts',
+    name: 'Bolts',
     description: 'Durable bolts with easy mechanism for all types.',
-    imageUrl: 'https://irp-cdn.multiscreensite.com/ba11592e/dms3rep/multi/0f1d3730-4691-40c5-9a06-c3859d723102.jpg'
+    imageUrl: 'https://www.coastwatersports.co.uk/images/products/Holt_Hex_Head_Bolts.jpg',
+     route: '/bolts'
   },
   {
-    name: 'Screws',
-    description: 'Smooth, screws cabinet hinge with long-lasting mechanism.',
-    imageUrl: 'https://tse2.mm.bing.net/th?id=OIP.eHLhRjOsWLNnO60cUw8yWwHaE8&pid=Api&P=0&h=180'
+    name: 'Nuts',
+    description: 'Durable bolts with easy mechanism for all types.',
+    imageUrl: 'https://p.turbosquid.com/ts-thumb/PN/vU9uYg/Ja/thumbnail/jpg/1611843264/1920x1080/fit_q87/16205b785b5f03692a449fd77de2ae176e722716/thumbnail.jpg',
+     route: '/nuts'
   },
   {
-    name: 'Padlock',
-    description: 'Heavy-duty padlock with rust-resistant coating and secure locking.',
-    imageUrl: 'https://content.oppictures.com/Master_Images/Master_Variants/Variant_1500/178962.JPG'
+    name: 'Washers',
+    description: 'Durable bolts with easy mechanism for all types.',
+    imageUrl: 'https://th.bing.com/th/id/OIP.zVKIA4c0Mz_g8ia4rj6KRAHaFy?r=0&rs=1&pid=ImgDetMain',
+     route: '/washers'
   },
 ];

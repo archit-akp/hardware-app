@@ -1,0 +1,12 @@
+<div class="bolt-container">
+  <h2>Types of Bolts</h2>
+  <div class="bolt-grid">
+    <mat-card *ngFor="let bolt of boltTypes" class="bolt-card">
+      <mat-card-title>{{ bolt.name }}</mat-card-title>
+      <mat-card-content>
+        <p><strong>Description:</strong> {{ bolt.description }}</p>
+        <p><strong>Specifications:</strong> {{ bolt.specs }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

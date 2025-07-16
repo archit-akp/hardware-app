@@ -1,0 +1,14 @@
+.bolt-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.bolt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.bolt-card {
+  padding: 1rem;
+}

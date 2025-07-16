@@ -19,14 +19,13 @@ export class NavbarComponent {
     const routeToIndex: Record<string, number> = {
       '/': 0,
       '/about': 1,
-      '/contact': 2,
-      '/quote': 3
+      '/quote': 2
     };
     this.selectedIndex = routeToIndex[path] ?? 0;
   }
 
    onTabChange(index: number): void {
-    const indexToRoute = ['/', '/about', '/contact', '/quote'];
+    const indexToRoute = ['/', '/about', '/quote'];
     this.router.navigate([indexToRoute[index]]);
   }
 

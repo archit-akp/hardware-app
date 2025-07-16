@@ -1,4 +1,4 @@
-<h3 class="quote-head">Get Quote</h3>
+<h3 class="quote-head"></h3>
 <div class="form">
 
     <form [formGroup]="quoteForm" (ngSubmit)="submitQuote()" class="quote-form">
@@ -34,8 +34,11 @@
       Description is required
     </mat-error>
   </mat-form-field>
+  <re-captcha  siteKey="6LeXa4UrAAAAABtRxprcAfHEeOpwB8a9uPxmyST8" (resolved)="onCaptchaResolved($event)">
 
-  <button mat-raised-button color="primary" type="submit">
+  </re-captcha>
+
+  <button mat-raised-button color="primary" type="submit" [disabled]="!captchaVerified">
     Get a Quote
   </button>
 

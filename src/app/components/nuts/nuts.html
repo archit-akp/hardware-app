@@ -1,0 +1,12 @@
+<div class="bolt-container">
+  <h2>Types of Nuts</h2>
+  <div class="bolt-grid">
+    <mat-card *ngFor="let nut of nutTypes" class="bolt-card">
+      <mat-card-title>{{ nut.name }}</mat-card-title>
+      <mat-card-content>
+        <p><strong>Description:</strong> {{ nut.description }}</p>
+        <p><strong>Specifications:</strong> {{ nut.specs }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
